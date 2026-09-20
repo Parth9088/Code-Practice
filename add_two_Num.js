@@ -32,6 +32,6 @@ function twoSum(nums, target) {
 const nums = [2, 7, 11, 15];
 const target = 26;
 const result = twoSum(nums, target);
-console.log(result); // Output: [1, 3]
+console.log(result); // Output: [2,3]
 
 //------------------------------------------------------------------
