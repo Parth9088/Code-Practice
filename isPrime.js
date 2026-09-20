@@ -5,7 +5,7 @@ function isPrime(num) {
         console.log(num + " is not a prime number.");
         return false; // Numbers less than or equal to 1 are not prime
     }           
-    for (let i = 2; i <= Math.sqrt(num); i++) { 
+    for (let i = 2; i <= num; i++) { 
         if (num % i === 0) {
             console.log(num + " is not a prime number.");
             return false; // Found a divisor, not prime
